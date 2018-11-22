@@ -1,18 +1,18 @@
 {
+    "fk": "True",
     "dependencias": [
         {
             "version": "v1.0",
             "key": "baseparche"
         },
         {
-            "key": "vbarba_cabrera",
+            "key": "albaranes_pda",
             "version": "v1.0"
         },
         {
-            "key": "albaranes_pda",
+            "key": "vbarba_cabrera",
             "version": "v1.0"
         }
     ],
-    "fk": "True",
     "fun_aq": "fun_arribascash"
 }
