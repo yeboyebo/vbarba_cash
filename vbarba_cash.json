@@ -3,7 +3,12 @@
     "modifications": {
         "deleteFile": [],
         "addFile": [],
-        "patchScript": [],
+        "patchScript": [
+            {
+                "name": "app_facturacion__views_facturacion.py",
+                "path": "apps/facturacion/viewset/"
+            }
+        ],
         "patchJson": [
             {
                 "name": "urls.json",
@@ -12,6 +17,10 @@
             {
                 "name": "registros.json",
                 "path": "config/"
+            },
+            {
+                "name": "app_portal__menu_portal.json",
+                "path": "apps/portal/templates/portal/"
             }
         ],
         "replaceFile": [
