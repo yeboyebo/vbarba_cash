@@ -2,7 +2,12 @@
     "name": "vbarba_cash",
     "modifications": {
         "deleteFile": [],
-        "addFile": [],
+        "addFile": [
+            {
+                "name": "model_models__clientBch.py",
+                "path": "models/models/"
+            }
+        ],
         "patchScript": [
             {
                 "name": "app_facturacion__views_facturacion.py",
