@@ -1,0 +1,9 @@
+{
+    "modifications": [
+        {
+            "type": "updateNode",
+            "path": "/items[Albaranes de PDA]/COLOR",
+            "value": "rgb(240, 120, 20)"
+        }
+    ]
+}

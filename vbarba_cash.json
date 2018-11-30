@@ -26,6 +26,10 @@
             {
                 "name": "app_portal__menu_portal.json",
                 "path": "apps/portal/templates/portal/"
+            },
+            {
+                "name": "app_facturacion__menu_facturacion.json",
+                "path": "apps/facturacion/templates/facturacion/"
             }
         ],
         "replaceFile": [
