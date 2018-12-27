@@ -37,7 +37,7 @@ class vbarba_cash(interna):
         return dict
 
     def __init__(self, context=None):
-        super(vbarba_cash, self).__init__(context)
+        super().__init__(context)
 
     def formRecordlineaspedidoscli(self, fN, dict, prefix, pk):
         return self.vbarba_cash_formRecordlineaspedidoscli(fN, dict, prefix, pk)
@@ -47,14 +47,14 @@ class vbarba_cash(interna):
 class head(vbarba_cash):
 
     def __init__(self, context=None):
-        super(head, self).__init__(context)
+        super().__init__(context)
 
 
 # @class_declaration ifaceCtx #
 class ifaceCtx(head):
 
     def __init__(self, context=None):
-        super(ifaceCtx, self).__init__(context)
+        super().__init__(context)
 
 
 # @class_declaration FormInternalObj #
