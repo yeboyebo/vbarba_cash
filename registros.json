@@ -1,3 +1,11 @@
 {
-    "modifications": []
+    "modifications": [
+        {
+            "type": "insertAfterNode",
+            "path": "/flfacturac/montadospedido",
+            "value": {
+                "registrosmodificados": null
+            }
+        }
+    ]
 }
